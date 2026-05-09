@@ -1,0 +1,91 @@
+{
+  "app": {
+    "title": "Detektor Ujaran Kebencian Indonesia",
+    "subtitle": "Pengklasifikasi toksisitas teks bahasa Indonesia"
+  },
+  "nav": {
+    "detector": "Detektor",
+    "history": "Riwayat",
+    "modelInfo": "Info Model"
+  },
+  "status": {
+    "healthy": "Backend sehat",
+    "unreachable": "Backend tak terjangkau",
+    "checking": "Memeriksa backend"
+  },
+  "language": {
+    "label": "Bahasa",
+    "en": "English",
+    "id": "Bahasa Indonesia"
+  },
+  "theme": {
+    "toggle": "Ubah tema",
+    "light": "Terang",
+    "dark": "Gelap",
+    "system": "Sistem"
+  },
+  "detector": {
+    "heading": "Analisis teks",
+    "description": "Tempel teks bahasa Indonesia dan deteksi apakah mengandung ujaran kebencian.",
+    "samples": "Coba contoh",
+    "placeholder": "Ketik atau tempel teks bahasa Indonesia di sini…",
+    "counter": "{{count}} / {{max}}",
+    "analyze": "Analisis",
+    "analyzing": "Menganalisis…",
+    "shortcutHint": "Tip: tekan Ctrl/Cmd + Enter untuk menganalisis",
+    "tooLong": "Teks melebihi {{max}} karakter.",
+    "result": {
+      "verdictToxic": "TOKSIK",
+      "verdictNonToxic": "TIDAK TOKSIK",
+      "labelNonToxic": "Tidak toksik",
+      "labelToxic": "Toksik",
+      "thresholdNote": "Ambang: {{threshold}}"
+    },
+    "errorTitle": "Analisis gagal"
+  },
+  "history": {
+    "heading": "Prediksi terbaru",
+    "description": "Disimpan secara lokal di peramban Anda. Maksimum {{cap}} entri.",
+    "empty": "Belum ada prediksi — analisis teks untuk memulai.",
+    "clearAll": "Hapus semua",
+    "clearConfirm": "Menghapus riwayat…",
+    "clearedTitle": "Riwayat dihapus",
+    "undo": "Batalkan",
+    "loadEntry": "Muat ke detektor",
+    "relative": {
+      "now": "baru saja",
+      "minutes_one": "{{count}} menit lalu",
+      "minutes_other": "{{count}} menit lalu",
+      "hours_one": "{{count}} jam lalu",
+      "hours_other": "{{count}} jam lalu",
+      "days_one": "{{count}} hari lalu",
+      "days_other": "{{count}} hari lalu"
+    }
+  },
+  "modelInfo": {
+    "heading": "Informasi model",
+    "description": "Detail pengklasifikasi yang sedang berjalan.",
+    "refresh": "Muat ulang",
+    "fields": {
+      "modelKey": "Kunci model",
+      "modelName": "Nama model",
+      "labels": "Label",
+      "threshold": "Ambang",
+      "maxLength": "Token maksimum",
+      "backendStatus": "Status backend",
+      "modelLoaded": "Model dimuat"
+    },
+    "loading": "Memuat…",
+    "error": "Tidak dapat memuat info model."
+  },
+  "errors": {
+    "network": "Tidak dapat menghubungi backend. Apakah sudah berjalan?",
+    "validation": "Input ditolak oleh server.",
+    "modelUnavailable": "Model tidak tersedia saat ini.",
+    "unknown": "Terjadi kesalahan."
+  },
+  "common": {
+    "yes": "Ya",
+    "no": "Tidak"
+  }
+}

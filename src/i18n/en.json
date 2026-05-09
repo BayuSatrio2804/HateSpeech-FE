@@ -1,0 +1,91 @@
+{
+  "app": {
+    "title": "Indonesian Hate Speech Detector",
+    "subtitle": "Toxicity classifier for Indonesian text"
+  },
+  "nav": {
+    "detector": "Detector",
+    "history": "History",
+    "modelInfo": "Model Info"
+  },
+  "status": {
+    "healthy": "Backend healthy",
+    "unreachable": "Backend unreachable",
+    "checking": "Checking backend"
+  },
+  "language": {
+    "label": "Language",
+    "en": "English",
+    "id": "Bahasa Indonesia"
+  },
+  "theme": {
+    "toggle": "Toggle theme",
+    "light": "Light",
+    "dark": "Dark",
+    "system": "System"
+  },
+  "detector": {
+    "heading": "Analyze text",
+    "description": "Paste Indonesian text and detect whether it is toxic.",
+    "samples": "Try a sample",
+    "placeholder": "Type or paste Indonesian text here…",
+    "counter": "{{count}} / {{max}}",
+    "analyze": "Analyze",
+    "analyzing": "Analyzing…",
+    "shortcutHint": "Tip: press Ctrl/Cmd + Enter to analyze",
+    "tooLong": "Text exceeds {{max}} characters.",
+    "result": {
+      "verdictToxic": "TOXIC",
+      "verdictNonToxic": "NON-TOXIC",
+      "labelNonToxic": "Non-toxic",
+      "labelToxic": "Toxic",
+      "thresholdNote": "Threshold: {{threshold}}"
+    },
+    "errorTitle": "Analysis failed"
+  },
+  "history": {
+    "heading": "Recent predictions",
+    "description": "Stored locally in your browser. Capped at {{cap}} entries.",
+    "empty": "No predictions yet — analyze some text to get started.",
+    "clearAll": "Clear all",
+    "clearConfirm": "Clearing history…",
+    "clearedTitle": "History cleared",
+    "undo": "Undo",
+    "loadEntry": "Load into detector",
+    "relative": {
+      "now": "just now",
+      "minutes_one": "{{count}} minute ago",
+      "minutes_other": "{{count}} minutes ago",
+      "hours_one": "{{count}} hour ago",
+      "hours_other": "{{count}} hours ago",
+      "days_one": "{{count}} day ago",
+      "days_other": "{{count}} days ago"
+    }
+  },
+  "modelInfo": {
+    "heading": "Model information",
+    "description": "Details about the deployed classifier.",
+    "refresh": "Refresh",
+    "fields": {
+      "modelKey": "Model key",
+      "modelName": "Model name",
+      "labels": "Labels",
+      "threshold": "Threshold",
+      "maxLength": "Max tokens",
+      "backendStatus": "Backend status",
+      "modelLoaded": "Model loaded"
+    },
+    "loading": "Loading…",
+    "error": "Could not load model info."
+  },
+  "errors": {
+    "network": "Could not reach the backend. Is it running?",
+    "validation": "Input rejected by the server.",
+    "modelUnavailable": "Model is not available right now.",
+    "unknown": "Something went wrong."
+  },
+  "common": {
+    "yes": "Yes",
+    "no": "No"
+  }
+}
